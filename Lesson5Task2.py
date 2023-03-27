@@ -9,6 +9,14 @@
 # number = list(range(1, 100, 2))
 # print(sum(number))
 
-for num in range(1, 100, 2):
-    sum(num)
-print()
+
+# summa = 0
+# for i in range(1, 100, 2):
+#    summa += i
+# print(summa)
+
+a = range(1, 100, 2)
+b = []
+for elem in a:
+        b.append(elem)
+print(sum(b))
