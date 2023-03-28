@@ -6,9 +6,11 @@
 # 11 12 13 14 15
 # ...
 
+n = 1
 while n in range(1, 201) and n < 200:
     j = 0
     while j < 5:
         print(n, end=" ")
         n += 1
+        break
 print()
