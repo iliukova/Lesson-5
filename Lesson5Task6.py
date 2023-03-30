@@ -8,13 +8,13 @@
 
 STAR="*"
 w, h = (int(input("введіть ширину=")), int(input("введіть висоту=")))
-for i in range(w):
+for i in range(h):
     if i == 0 or i == h-1:
         for j in range(w):
             print(STAR, end=" ")
     else:
         print(STAR, end=" ")
         for j in range(1, w-1):
-            print(" ", end=" ")
+            print()
         print(STAR, end=" ")
     print()

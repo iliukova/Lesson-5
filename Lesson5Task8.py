@@ -6,16 +6,14 @@
 # Було → [1,4,7,2]
 # Стало → [1,4,7,2,2,8,14,4]
 
-A=4
+A = 4
 import random
-a=[]
-b=[]
+a = []
+v = []
 for i in range(A):
-    x=random.randint(0,100)
+    x = random.randint(0, 100)
     a.append(x)
-    if y>0:
-        y=y*2
-    b.append(y)
+    b = a[i]*2
+    v.append(b)
 print(a)
-print(b)
-///
+print(a+v)

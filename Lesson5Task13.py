@@ -7,4 +7,6 @@
 #  ***
 # *****
 
-///
+x=int(input("Введіть ширину ="))
+from itertools import chain
+print("\n".join(chain((('* ' * i + '*').rjust(x * 2 + i) for i in range((x-1), 0, -1)), (('* ' * i + '*').rjust(x * 2 + i) for i in range(x)))))
